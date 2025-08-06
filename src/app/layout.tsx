@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import {HeroUIProvider} from "@heroui/react";
+import InitialLayout from '@/components/layouts/initialLayout';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -26,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <HeroUIProvider>{children}</HeroUIProvider>
+        <InitialLayout>{children}</InitialLayout>
       </body>
     </html>
   );

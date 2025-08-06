@@ -14,7 +14,7 @@ const eslintConfig = [
   ...compat.extends(
     'next/core-web-vitals',
     'next/typescript',
-    'plugin:prettier/recommended' // ✅ Thêm dòng này để dùng Prettier
+    'plugin:prettier/recommended', // ✅ Thêm dòng này để dùng Prettier
   ),
 ];
 
