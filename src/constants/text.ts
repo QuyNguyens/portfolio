@@ -1,4 +1,5 @@
 import Dashboard from '../../public/images/dashboard.png';
+import Travel from '../../public/images/travel.png';
 import LvoDark from '../../public/images/lvo-dark.png';
 import Grocery from '../../public/images/grocery.png';
 import OpenDev from '../../public/images/opendev.png';
@@ -24,6 +25,13 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECT = [
+  {
+    image: Travel,
+    name: 'Travel Easy',
+    description:
+      'The project is a travel-promotion landing page that highlights destinations and tours while allowing users to easily schedule travel bookings. It is built with Next.js for fast, SEO-friendly performance and styled with Tailwind CSS and Headless UI for a clean, responsive user experience.',
+    url: 'https://travel-easy-neon.vercel.app',
+  },
   {
     image: Dashboard,
     name: 'Dashboard real time',
