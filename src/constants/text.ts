@@ -22,6 +22,13 @@ export const EXPERIENCE = [
 
 export const PROJECT = [
   {
+    image: Ctm,
+    name: 'Chợ thông minh',
+    description:
+      '“Chợ Thông Minh” is a full-stack e-commerce platform designed for local marketplaces, enabling users to browse products, place orders, and interact with merchants in real time. The system is built with a modern microservices architecture using Next.js, Node.js, and TypeScript, focusing on scalability, performance, and seamless user experience. Key features include product management, voucher system, real-time order updates, and integrated online payment solutions.',
+    url: 'https://chothongminh.com',
+  },
+  {
     image: Travel,
     name: 'Travel Easy',
     description:
@@ -34,13 +41,6 @@ export const PROJECT = [
     description:
       'A frontend practice project built with React.js, Tailwind CSS, and Framer Motion to prepare for frontend interviews. The project focuses on building responsive UIs with clean component structure, while enhancing user experience through smooth animations and interactive transitions.',
     url: 'https://animation-bootslander.vercel.app/',
-  },
-  {
-    image: Ctm,
-    name: 'Chợ thông minh',
-    description:
-      '“Chợ Thông Minh” is a full-stack e-commerce platform designed for local marketplaces, enabling users to browse products, place orders, and interact with merchants in real time. The system is built with a modern microservices architecture using Next.js, Node.js, and TypeScript, focusing on scalability, performance, and seamless user experience. Key features include product management, voucher system, real-time order updates, and integrated online payment solutions.',
-    url: 'https://chothongminh.com',
   },
 ];
 

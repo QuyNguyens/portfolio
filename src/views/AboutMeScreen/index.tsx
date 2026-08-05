@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Avatar from '../../../public/images/aboutme.jpg';
 import Image from 'next/image';
